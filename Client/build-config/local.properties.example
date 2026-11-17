@@ -1,0 +1,4 @@
+# 复制本文件为 local.properties（该文件不入库）。
+# 系统未设置有效的 ANDROID_HOME，SDK 位置只能由此处提供。
+# 换机器时只需修改 sdk.dir 一行，见 docs/ENVIRONMENT.md 第 2 章。
+sdk.dir=D\:\\DevelopmentTools\\Android\\Sdk

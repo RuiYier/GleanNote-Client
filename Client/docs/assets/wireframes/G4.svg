@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 468" width="680" height="468">
+<defs>
+  <rect id="lg-load" width="28" height="14" fill="#EEF0F3" stroke="#1F2328" stroke-width="1"/>
+  <rect id="lg-empty" width="28" height="14" fill="#F7F8FA" stroke="#1F2328" stroke-width="1"/>
+  <rect id="lg-error" width="28" height="14" fill="#FFFFFF" stroke="#1F2328" stroke-width="1"/>
+  <rect id="lg-offline" width="28" height="14" fill="#F7F8FA" stroke="#1F2328" stroke-width="1"/>
+</defs>
+<rect x="0" y="0" width="680" height="468" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<text x="20" y="30" fill="#1F2328" font-size="16" text-anchor="start">G4 笔记主态界面线框</text>
+<text x="20" y="50" fill="#1F2328" font-size="11" text-anchor="start">包含 SCR-07 / SCR-08　（共 2 个界面）</text>
+<line x1="20" y1="60" x2="660" y2="60" stroke="#1F2328" stroke-width="1"/>
+<rect x="140" y="78" width="150" height="300" fill="#FFFFFF" stroke="#1F2328" stroke-width="1.5"/>
+<rect x="141" y="79" width="148" height="24" fill="#EEF0F3" stroke="none" stroke-width="0"/>
+<text x="146" y="95" fill="#1F2328" font-size="10" text-anchor="start">SCR-07 笔记页</text>
+<rect x="144" y="110" width="33" height="14" fill="#F7F8FA" stroke="#1F2328" stroke-width="1"/>
+<text x="160.5" y="121" fill="#1F2328" font-size="10" text-anchor="middle">加载</text>
+<rect x="181" y="110" width="33" height="14" fill="#F7F8FA" stroke="#1F2328" stroke-width="1"/>
+<text x="197.5" y="121" fill="#1F2328" font-size="10" text-anchor="middle">空</text>
+<rect x="218" y="110" width="33" height="14" fill="#F7F8FA" stroke="#1F2328" stroke-width="1"/>
+<text x="234.5" y="121" fill="#1F2328" font-size="10" text-anchor="middle">错误</text>
+<rect x="255" y="110" width="33" height="14" fill="#F7F8FA" stroke="#1F2328" stroke-width="1"/>
+<text x="271.5" y="121" fill="#1F2328" font-size="10" text-anchor="middle">离线</text>
+<rect x="148" y="132" width="134" height="24" fill="#F7F8FA" stroke="#1F2328" stroke-width="1"/>
+<text x="153" y="147.5" fill="#1F2328" font-size="10" text-anchor="start">R1 标题</text>
+<rect x="148" y="161" width="134" height="24" fill="#F7F8FA" stroke="#1F2328" stroke-width="1"/>
+<text x="153" y="176.5" fill="#1F2328" font-size="10" text-anchor="start">R2 标签</text>
+<rect x="148" y="190" width="134" height="24" fill="#F7F8FA" stroke="#1F2328" stroke-width="1"/>
+<text x="153" y="205.5" fill="#1F2328" font-size="10" text-anchor="start">R3 编辑预览切换</text>
+<rect x="148" y="219" width="134" height="24" fill="#F7F8FA" stroke="#1F2328" stroke-width="1"/>
+<text x="153" y="234.5" fill="#1F2328" font-size="10" text-anchor="start">R4 正文</text>
+<rect x="148" y="248" width="134" height="24" fill="#F7F8FA" stroke="#1F2328" stroke-width="1"/>
+<text x="153" y="263.5" fill="#1F2328" font-size="10" text-anchor="start">R5 工具栏</text>
+<rect x="148" y="277" width="134" height="24" fill="#F7F8FA" stroke="#1F2328" stroke-width="1"/>
+<text x="153" y="292.5" fill="#1F2328" font-size="10" text-anchor="start">R6 保存状态</text>
+<rect x="148" y="306" width="134" height="24" fill="#F7F8FA" stroke="#1F2328" stroke-width="1"/>
+<text x="153" y="321.5" fill="#1F2328" font-size="10" text-anchor="start">R7 原文入口</text>
+<rect x="148" y="335" width="134" height="24" fill="#F7F8FA" stroke="#1F2328" stroke-width="1"/>
+<text x="153" y="350.5" fill="#1F2328" font-size="10" text-anchor="start">R8 更多操作</text>
+<text x="148" y="371" fill="#1F2328" font-size="10" text-anchor="start">组件 8 区 · 状态角标 4 类</text>
+<rect x="390" y="78" width="150" height="300" fill="#FFFFFF" stroke="#1F2328" stroke-width="1.5"/>
+<rect x="391" y="79" width="148" height="24" fill="#EEF0F3" stroke="none" stroke-width="0"/>
+<text x="396" y="95" fill="#1F2328" font-size="10" text-anchor="start">SCR-08 原文视图</text>
+<rect x="394" y="110" width="33" height="14" fill="#F7F8FA" stroke="#1F2328" stroke-width="1"/>
+<text x="410.5" y="121" fill="#1F2328" font-size="10" text-anchor="middle">加载</text>
+<rect x="431" y="110" width="33" height="14" fill="#F7F8FA" stroke="#1F2328" stroke-width="1"/>
+<text x="447.5" y="121" fill="#1F2328" font-size="10" text-anchor="middle">空</text>
+<rect x="468" y="110" width="33" height="14" fill="#F7F8FA" stroke="#1F2328" stroke-width="1"/>
+<text x="484.5" y="121" fill="#1F2328" font-size="10" text-anchor="middle">错误</text>
+<rect x="505" y="110" width="33" height="14" fill="#F7F8FA" stroke="#1F2328" stroke-width="1"/>
+<text x="521.5" y="121" fill="#1F2328" font-size="10" text-anchor="middle">离线</text>
+<rect x="398" y="132" width="134" height="34" fill="#F7F8FA" stroke="#1F2328" stroke-width="1"/>
+<text x="403" y="152.5" fill="#1F2328" font-size="10" text-anchor="start">R1 页面图片</text>
+<rect x="398" y="174" width="134" height="34" fill="#F7F8FA" stroke="#1F2328" stroke-width="1"/>
+<text x="403" y="194.5" fill="#1F2328" font-size="10" text-anchor="start">R2 页码</text>
+<rect x="398" y="216" width="134" height="34" fill="#F7F8FA" stroke="#1F2328" stroke-width="1"/>
+<text x="403" y="236.5" fill="#1F2328" font-size="10" text-anchor="start">R3 缩放</text>
+<text x="398" y="371" fill="#1F2328" font-size="10" text-anchor="start">组件 3 区 · 状态角标 4 类</text>
+<line x1="292" y1="228" x2="387" y2="228" stroke="#1F2328" stroke-width="1"/>
+<polyline points="381,224 387,228 381,232" fill="none" stroke="#1F2328" stroke-width="1"/>
+<line x1="20" y1="392" x2="660" y2="392" stroke="#1F2328" stroke-width="1"/>
+<text x="20" y="409" fill="#1F2328" font-size="11" text-anchor="start">图例</text>
+<rect x="58" y="398" width="26" height="14" fill="#F7F8FA" stroke="#1F2328" stroke-width="1"/>
+<text x="89" y="409" fill="#1F2328" font-size="10" text-anchor="start">加载 角标</text>
+<rect x="154" y="398" width="26" height="14" fill="#F7F8FA" stroke="#1F2328" stroke-width="1"/>
+<text x="185" y="409" fill="#1F2328" font-size="10" text-anchor="start">空 角标</text>
+<rect x="250" y="398" width="26" height="14" fill="#F7F8FA" stroke="#1F2328" stroke-width="1"/>
+<text x="281" y="409" fill="#1F2328" font-size="10" text-anchor="start">错误 角标</text>
+<rect x="346" y="398" width="26" height="14" fill="#F7F8FA" stroke="#1F2328" stroke-width="1"/>
+<text x="377" y="409" fill="#1F2328" font-size="10" text-anchor="start">离线 角标</text>
+<text x="20" y="430" fill="#1F2328" font-size="10" text-anchor="start">矩形块 = 区域 R1…（承载组件）　折线箭头 = 导航跳转　角标 = 加载 / 空 / 错误 / 离线</text>
+<text x="20" y="447" fill="#1F2328" font-size="10" text-anchor="start">导航：SCR-07 → SCR-08 原文视图</text>
+<text x="20" y="459" fill="#1F2328" font-size="10" text-anchor="start">G4 · 浅色背景 / 深色文字 · 线框示意，不含像素尺寸与真实长文案</text>
+</svg>

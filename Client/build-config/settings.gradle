@@ -1,0 +1,28 @@
+/*
+ * 仓库配置复刻自本机已成功构建的 MusicPlayer 课程工程。
+ * 阿里云镜像必须放在首位：国内网络下 Google Maven / Maven Central 直连不稳定，
+ * 且 Kotlin Gradle Plugin 与 Compose 依赖在首次构建时需联网下载。
+ * FAIL_ON_PROJECT_REPOS 禁止子模块私自声明仓库，保证依赖来源唯一。
+ */
+pluginManagement {
+    repositories {
+        maven { url 'https://maven.aliyun.com/repository/google' }
+        maven { url 'https://maven.aliyun.com/repository/public' }
+        maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        maven { url 'https://maven.aliyun.com/repository/google' }
+        maven { url 'https://maven.aliyun.com/repository/public' }
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.name = "GleanNote"
+include ':app'

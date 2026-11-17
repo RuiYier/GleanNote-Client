@@ -1,0 +1,66 @@
+/*
+ * GleanNote app 模块最小可用配置（复制为 app/build.gradle）。
+ * 版本依据：本机仅安装 SDK Platform 34 / Build Tools 34.0.0，故 compileSdk、targetSdk 固定 34。
+ * minSdk 26 来自 CLIENT-ARCHITECTURE.md 4.3，不沿用参考工程的 21。
+ * Kotlin 1.9.24 必须与 Compose Compiler 1.5.14 配对，升级 Kotlin 2.x 需改用 Compose Compiler Gradle 插件。
+ * 依赖清单见 docs/ENVIRONMENT.md 第 6 章，后续按模块逐步添加。
+ */
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+}
+
+android {
+    namespace 'com.example.gleannote'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId 'com.example.gleannote'
+        minSdk 26
+        targetSdk 34
+        versionCode 1
+        versionName '0.1.0'
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+    }
+
+    buildTypes {
+        debug {
+            /* debug 需通过 res/xml/network_security_config.xml 放开明文到 10.0.2.2:8080，
+             * 用于本地服务端联调；release 仅允许 HTTPS，见 API.md 2.1、CLIENT-ARCHITECTURE.md 4.3。 */
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    kotlinOptions { jvmTarget = '17' }
+
+    buildFeatures { compose true }
+    composeOptions { kotlinCompilerExtensionVersion '1.5.14' }
+
+    packaging {
+        resources { excludes += '/META-INF/{AL2.0,LGPL2.1}' }
+    }
+}
+
+dependencies {
+    implementation platform('androidx.compose:compose-bom:2024.06.00')
+    implementation 'androidx.core:core-ktx:1.13.1'
+    implementation 'androidx.activity:activity-compose:1.9.0'
+    implementation 'androidx.compose.ui:ui'
+    implementation 'androidx.compose.ui:ui-graphics'
+    implementation 'androidx.compose.ui:ui-tooling-preview'
+    implementation 'androidx.compose.material3:material3'
+    implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.8.2'
+
+    debugImplementation 'androidx.compose.ui:ui-tooling'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation platform('androidx.compose:compose-bom:2024.06.00')
+    androidTestImplementation 'androidx.compose.ui:ui-test-junit4'
+    debugImplementation 'androidx.compose.ui:ui-test-manifest'
+}

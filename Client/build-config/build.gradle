@@ -1,0 +1,9 @@
+/*
+ * GleanNote 根构建脚本：只声明插件版本，不在此处应用插件。
+ * 版本组合经本机实测：AGP 8.4.2 + Gradle 8.7 + JDK 21，见 docs/ENVIRONMENT.md 第 1 章。
+ * Kotlin 1.9.24 与 app 模块的 Compose Compiler 1.5.14 严格配对，不得单独升级。
+ */
+plugins {
+    id 'com.android.application' version '8.4.2' apply false
+    id 'org.jetbrains.kotlin.android' version '1.9.24' apply false
+}
